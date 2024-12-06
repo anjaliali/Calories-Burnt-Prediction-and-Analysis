@@ -293,6 +293,3 @@ def predict_calories_burnt():
 
 # Call the user input function to test
 predict_calories_burnt()
-
-import pickle
-pickle.dump(xgb,open('xgb.pkl','wb'))
