@@ -10,7 +10,7 @@ st.title("Calories Burnt Prediction System")
 
 # Input fields
 st.header("Enter Input Details")
-gender = st.number_input("Gender (0 for Female, 1 for Male)", min_value=0, max_value=1, step=1)
+gender = st.number_input("Gender (1 for Female, 0 for Male)", min_value=0, max_value=1, step=1)
 age = st.number_input("Age", min_value=0, step=1)
 height = st.number_input("Height (in cm)", min_value=0.0, step=0.1)
 weight = st.number_input("Weight (in kg)", min_value=0.0, step=0.1)
